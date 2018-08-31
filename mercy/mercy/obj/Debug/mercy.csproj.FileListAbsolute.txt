@@ -1,0 +1,252 @@
+C:\Users\nazik\source\repos\mercy\mercy\bin\Debug\mercy.exe.config
+C:\Users\nazik\source\repos\mercy\mercy\bin\Debug\mercy.exe
+C:\Users\nazik\source\repos\mercy\mercy\bin\Debug\mercy.pdb
+C:\Users\nazik\source\repos\mercy\mercy\bin\Debug\MaterialDesignColors.dll
+C:\Users\nazik\source\repos\mercy\mercy\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\nazik\source\repos\mercy\mercy\bin\Debug\MaterialDesignColors.pdb
+C:\Users\nazik\source\repos\mercy\mercy\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\nazik\source\repos\mercy\mercy\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\nazik\source\repos\mercy\mercy\obj\Debug\mercy.csprojAssemblyReference.cache
+C:\Users\nazik\source\repos\mercy\mercy\obj\Debug\MainWindow.g.cs
+C:\Users\nazik\source\repos\mercy\mercy\obj\Debug\App.g.cs
+C:\Users\nazik\source\repos\mercy\mercy\obj\Debug\mercy_MarkupCompile.cache
+C:\Users\nazik\source\repos\mercy\mercy\obj\Debug\mercy_MarkupCompile.lref
+C:\Users\nazik\source\repos\mercy\mercy\obj\Debug\App.baml
+C:\Users\nazik\source\repos\mercy\mercy\obj\Debug\MainWindow.baml
+C:\Users\nazik\source\repos\mercy\mercy\obj\Debug\mercy.g.resources
+C:\Users\nazik\source\repos\mercy\mercy\obj\Debug\mercy.Properties.Resources.resources
+C:\Users\nazik\source\repos\mercy\mercy\obj\Debug\mercy.csproj.GenerateResource.cache
+C:\Users\nazik\source\repos\mercy\mercy\obj\Debug\mercy.csproj.CoreCompileInputs.cache
+C:\Users\nazik\source\repos\mercy\mercy\obj\Debug\mercy.csproj.CopyComplete
+C:\Users\nazik\source\repos\mercy\mercy\obj\Debug\mercy.exe
+C:\Users\nazik\source\repos\mercy\mercy\obj\Debug\mercy.pdb
+C:\Users\nazik\source\repos\mercy\mercy\obj\Debug\UserControlProduct.g.cs
+C:\Users\nazik\source\repos\mercy\mercy\obj\Debug\UserControlProduct.baml
+C:\Users\nazik\source\repos\mercy\mercy\obj\Debug\UserControlReport.g.cs
+C:\Users\nazik\source\repos\mercy\mercy\obj\Debug\UserControlReport.baml
+C:\Users\nazik\source\repos\mercy\mercy\obj\Debug\UserControlPrint.g.cs
+C:\Users\nazik\source\repos\mercy\mercy\obj\Debug\UserControlPrint.baml
+C:\Users\nazik\source\repos\mercy\mercy\obj\Debug\UserControlHome.g.cs
+C:\Users\nazik\source\repos\mercy\mercy\obj\Debug\UserControlHome.baml
+D:\Website\ITP\visual studios\mercy\mercy\obj\Debug\mercy.csprojAssemblyReference.cache
+D:\Website\ITP\visual studios\mercy\mercy\obj\Debug\MainWindow.g.cs
+D:\Website\ITP\visual studios\mercy\mercy\obj\Debug\UserControlHome.g.cs
+D:\Website\ITP\visual studios\mercy\mercy\obj\Debug\UserControlPrint.g.cs
+D:\Website\ITP\visual studios\mercy\mercy\obj\Debug\UserControlProduct.g.cs
+D:\Website\ITP\visual studios\mercy\mercy\obj\Debug\UserControlReport.g.cs
+D:\Website\ITP\visual studios\mercy\mercy\obj\Debug\App.g.cs
+D:\Website\ITP\visual studios\mercy\mercy\obj\Debug\mercy_MarkupCompile.cache
+D:\Website\ITP\visual studios\mercy\mercy\obj\Debug\mercy_MarkupCompile.lref
+D:\Website\ITP\visual studios\mercy\mercy\obj\Debug\mercy.exe
+D:\Website\ITP\visual studios\mercy\mercy\obj\Debug\mercy.pdb
+D:\Website\ITP\visual studios\mercy\mercy\bin\Debug\mercy.exe.config
+D:\Website\ITP\visual studios\mercy\mercy\bin\Debug\mercy.exe
+D:\Website\ITP\visual studios\mercy\mercy\bin\Debug\mercy.pdb
+D:\Website\ITP\visual studios\mercy\mercy\bin\Debug\MaterialDesignColors.dll
+D:\Website\ITP\visual studios\mercy\mercy\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Website\ITP\visual studios\mercy\mercy\bin\Debug\MaterialDesignColors.pdb
+D:\Website\ITP\visual studios\mercy\mercy\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Website\ITP\visual studios\mercy\mercy\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Website\ITP\visual studios\mercy\mercy\obj\Debug\App.baml
+D:\Website\ITP\visual studios\mercy\mercy\obj\Debug\MainWindow.baml
+D:\Website\ITP\visual studios\mercy\mercy\obj\Debug\UserControlHome.baml
+D:\Website\ITP\visual studios\mercy\mercy\obj\Debug\UserControlPrint.baml
+D:\Website\ITP\visual studios\mercy\mercy\obj\Debug\UserControlProduct.baml
+D:\Website\ITP\visual studios\mercy\mercy\obj\Debug\UserControlReport.baml
+D:\Website\ITP\visual studios\mercy\mercy\obj\Debug\mercy.g.resources
+D:\Website\ITP\visual studios\mercy\mercy\obj\Debug\mercy.Properties.Resources.resources
+D:\Website\ITP\visual studios\mercy\mercy\obj\Debug\mercy.csproj.GenerateResource.cache
+D:\Website\ITP\visual studios\mercy\mercy\obj\Debug\mercy.csproj.CoreCompileInputs.cache
+D:\Website\ITP\visual studios\mercy\mercy\obj\Debug\mercy.csproj.CopyComplete
+C:\Users\Ashhar\Desktop\mercylogin\mercy\mercy\obj\Debug\mercy.csprojResolveAssemblyReference.cache
+C:\Users\Ashhar\Desktop\mercylogin\mercy\mercy\obj\Debug\MainWindow.g.cs
+C:\Users\Ashhar\Desktop\mercylogin\mercy\mercy\obj\Debug\UI\Admin\AdminWindow.g.cs
+C:\Users\Ashhar\Desktop\mercylogin\mercy\mercy\obj\Debug\UI\Assistant Account\AssistantAccountant.g.cs
+C:\Users\Ashhar\Desktop\mercylogin\mercy\mercy\obj\Debug\UI\Assistant OPD\OPDAssistance.g.cs
+C:\Users\Ashhar\Desktop\mercylogin\mercy\mercy\obj\Debug\UI\AssistantMLT\MLTAssistance.g.cs
+C:\Users\Ashhar\Desktop\mercylogin\mercy\mercy\obj\Debug\UI\EmployeeAssistant\EmployeeAssistant.g.cs
+C:\Users\Ashhar\Desktop\mercylogin\mercy\mercy\obj\Debug\UI\Manager\Manager.g.cs
+C:\Users\Ashhar\Desktop\mercylogin\mercy\mercy\obj\Debug\UI\Pharmacist\Pharmacist.g.cs
+C:\Users\Ashhar\Desktop\mercylogin\mercy\mercy\obj\Debug\UI\Receptionist\Receptionist.g.cs
+C:\Users\Ashhar\Desktop\mercylogin\mercy\mercy\obj\Debug\UI\Store Manager\StoreManager.g.cs
+C:\Users\Ashhar\Desktop\mercylogin\mercy\mercy\obj\Debug\UserControlHome.g.cs
+C:\Users\Ashhar\Desktop\mercylogin\mercy\mercy\obj\Debug\UserControlPrint.g.cs
+C:\Users\Ashhar\Desktop\mercylogin\mercy\mercy\obj\Debug\UserControlProduct.g.cs
+C:\Users\Ashhar\Desktop\mercylogin\mercy\mercy\obj\Debug\UserControlReport.g.cs
+C:\Users\Ashhar\Desktop\mercylogin\mercy\mercy\obj\Debug\App.g.cs
+C:\Users\Ashhar\Desktop\mercylogin\mercy\mercy\obj\Debug\mercy_MarkupCompile.cache
+C:\Users\Ashhar\Desktop\mercylogin\mercy\mercy\obj\Debug\mercy_MarkupCompile.lref
+C:\Users\Ashhar\Desktop\mercylogin\mercy\mercy\obj\Debug\mercy.exe
+C:\Users\Ashhar\Desktop\mercylogin\mercy\mercy\obj\Debug\mercy.pdb
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\mercy.csprojResolveAssemblyReference.cache
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\MainWindow.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Admin\Admin2.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Admin\Admin3.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Admin\Admin4.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Admin\AdminHome.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Admin\AdminWindow.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Assistant Account\Account1.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Assistant Account\Account2.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Assistant Account\Account3.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Assistant Account\Account4.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Assistant Account\AssistantAccountant.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Assistant OPD\Opd1.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Assistant OPD\Opd2.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Assistant OPD\Opd3.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Assistant OPD\Opd4.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Assistant OPD\OPDAssistance.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\AssistantMLT\MLT1.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\AssistantMLT\MLT2.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\AssistantMLT\MLT3.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\AssistantMLT\MLT4.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\AssistantMLT\MLTAssistance.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\EmployeeAssistant\Employee1.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\EmployeeAssistant\Employee2.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\EmployeeAssistant\Employee3.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\EmployeeAssistant\Employee4.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\EmployeeAssistant\EmployeeAssistant.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Manager\Manager.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Manager\Manager1.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Manager\Manager2.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Manager\Manager3.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Manager\Manager4.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Pharmacist\Pharmacist.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Pharmacist\PharmacyBilling.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Pharmacist\PharmacyProducts.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Pharmacist\PharmacyReport.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Receptionist\Receptionist.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Receptionist\Receptionist1.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Receptionist\Receptionist2.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Receptionist\Receptionist3.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Receptionist\Receptionist4.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Store Manager\StoreManager.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Store Manager\StoreManager1.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Store Manager\StoreManager2.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Store Manager\StoreManager3.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Store Manager\StoreManager4.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UserControlHome.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UserControlPrint.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UserControlProduct.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UserControlReport.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\App.g.cs
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\mercy_MarkupCompile.cache
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\mercy_MarkupCompile.lref
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\mercy.exe
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\mercy.pdb
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\bin\Debug\mercy.exe.config
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\bin\Debug\mercy.exe
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\bin\Debug\mercy.pdb
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\bin\Debug\MaterialDesignColors.dll
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\bin\Debug\MaterialDesignColors.pdb
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\App.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\MainWindow.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Admin\Admin2.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Admin\Admin3.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Admin\Admin4.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Admin\AdminHome.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Admin\AdminWindow.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Assistant Account\Account1.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Assistant Account\Account2.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Assistant Account\Account3.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Assistant Account\Account4.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Assistant Account\AssistantAccountant.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Assistant OPD\Opd1.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Assistant OPD\Opd2.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Assistant OPD\Opd3.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Assistant OPD\Opd4.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Assistant OPD\OPDAssistance.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\AssistantMLT\MLT1.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\AssistantMLT\MLT2.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\AssistantMLT\MLT3.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\AssistantMLT\MLT4.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\AssistantMLT\MLTAssistance.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\EmployeeAssistant\Employee1.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\EmployeeAssistant\Employee2.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\EmployeeAssistant\Employee3.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\EmployeeAssistant\Employee4.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\EmployeeAssistant\EmployeeAssistant.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Manager\Manager.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Manager\Manager1.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Manager\Manager2.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Manager\Manager3.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Manager\Manager4.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Pharmacist\Pharmacist.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Pharmacist\PharmacyBilling.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Pharmacist\PharmacyProducts.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Pharmacist\PharmacyReport.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Receptionist\Receptionist.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Receptionist\Receptionist1.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Receptionist\Receptionist2.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Receptionist\Receptionist3.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Receptionist\Receptionist4.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Store Manager\StoreManager.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Store Manager\StoreManager1.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Store Manager\StoreManager2.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Store Manager\StoreManager3.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UI\Store Manager\StoreManager4.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UserControlHome.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UserControlPrint.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UserControlProduct.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\UserControlReport.baml
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\mercy.g.resources
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\mercy.Properties.Resources.resources
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\mercy.csproj.GenerateResource.Cache
+E:\study meterial\Projects\Locker\2nd year\2nd year 2nd sem\ITP Project\GitProjects\Mercy-Hospitals\mercylogin\mercy\mercy\obj\Debug\mercy.csproj.CoreCompileInputs.cache
+E:\mercy\mercy\obj\Debug\mercy.csprojResolveAssemblyReference.cache
+E:\mercy\mercy\obj\Debug\MainWindow.g.cs
+E:\mercy\mercy\obj\Debug\UI\Admin\Admin2.g.cs
+E:\mercy\mercy\obj\Debug\UI\Admin\Admin3.g.cs
+E:\mercy\mercy\obj\Debug\UI\Admin\Admin4.g.cs
+E:\mercy\mercy\obj\Debug\UI\Admin\AdminHome.g.cs
+E:\mercy\mercy\obj\Debug\UI\Admin\AdminWindow.g.cs
+E:\mercy\mercy\obj\Debug\UI\Assistant Account\Account1.g.cs
+E:\mercy\mercy\obj\Debug\UI\Assistant Account\Account2.g.cs
+E:\mercy\mercy\obj\Debug\UI\Assistant Account\Account3.g.cs
+E:\mercy\mercy\obj\Debug\UI\Assistant Account\Account4.g.cs
+E:\mercy\mercy\obj\Debug\UI\Assistant Account\AssistantAccountant.g.cs
+E:\mercy\mercy\obj\Debug\UI\Assistant OPD\Opd1.g.cs
+E:\mercy\mercy\obj\Debug\UI\Assistant OPD\Opd2.g.cs
+E:\mercy\mercy\obj\Debug\UI\Assistant OPD\Opd3.g.cs
+E:\mercy\mercy\obj\Debug\UI\Assistant OPD\Opd4.g.cs
+E:\mercy\mercy\obj\Debug\UI\Assistant OPD\OPDAssistance.g.cs
+E:\mercy\mercy\obj\Debug\UI\AssistantMLT\MLT1.g.cs
+E:\mercy\mercy\obj\Debug\UI\AssistantMLT\MLT2.g.cs
+E:\mercy\mercy\obj\Debug\UI\AssistantMLT\MLT3.g.cs
+E:\mercy\mercy\obj\Debug\UI\AssistantMLT\MLT4.g.cs
+E:\mercy\mercy\obj\Debug\UI\AssistantMLT\MLTAssistance.g.cs
+E:\mercy\mercy\obj\Debug\UI\EmployeeAssistant\Employee1.g.cs
+E:\mercy\mercy\obj\Debug\UI\EmployeeAssistant\Employee2.g.cs
+E:\mercy\mercy\obj\Debug\UI\EmployeeAssistant\Employee3.g.cs
+E:\mercy\mercy\obj\Debug\UI\EmployeeAssistant\Employee4.g.cs
+E:\mercy\mercy\obj\Debug\UI\EmployeeAssistant\EmployeeAssistant.g.cs
+E:\mercy\mercy\obj\Debug\UI\Manager\Manager.g.cs
+E:\mercy\mercy\obj\Debug\UI\Manager\Manager1.g.cs
+E:\mercy\mercy\obj\Debug\UI\Manager\Manager2.g.cs
+E:\mercy\mercy\obj\Debug\UI\Manager\Manager3.g.cs
+E:\mercy\mercy\obj\Debug\UI\Manager\Manager4.g.cs
+E:\mercy\mercy\obj\Debug\UI\Pharmacist\Pharmacist.g.cs
+E:\mercy\mercy\obj\Debug\UI\Pharmacist\PharmacyBilling.g.cs
+E:\mercy\mercy\obj\Debug\UI\Pharmacist\PharmacyProducts.g.cs
+E:\mercy\mercy\obj\Debug\UI\Pharmacist\PharmacyReport.g.cs
+E:\mercy\mercy\obj\Debug\UI\Receptionist\Receptionist.g.cs
+E:\mercy\mercy\obj\Debug\UI\Receptionist\Receptionist1.g.cs
+E:\mercy\mercy\obj\Debug\UI\Receptionist\Receptionist2.g.cs
+E:\mercy\mercy\obj\Debug\UI\Receptionist\Receptionist3.g.cs
+E:\mercy\mercy\obj\Debug\UI\Receptionist\Receptionist4.g.cs
+E:\mercy\mercy\obj\Debug\UI\Store Manager\StoreManager.g.cs
+E:\mercy\mercy\obj\Debug\UI\Store Manager\StoreManager1.g.cs
+E:\mercy\mercy\obj\Debug\UI\Store Manager\StoreManager2.g.cs
+E:\mercy\mercy\obj\Debug\UI\Store Manager\StoreManager3.g.cs
+E:\mercy\mercy\obj\Debug\UI\Store Manager\StoreManager4.g.cs
+E:\mercy\mercy\obj\Debug\UserControlHome.g.cs
+E:\mercy\mercy\obj\Debug\UserControlPrint.g.cs
+E:\mercy\mercy\obj\Debug\UserControlProduct.g.cs
+E:\mercy\mercy\obj\Debug\UserControlReport.g.cs
+E:\mercy\mercy\obj\Debug\App.g.cs
+E:\mercy\mercy\obj\Debug\mercy_MarkupCompile.cache
+E:\mercy\mercy\obj\Debug\mercy_MarkupCompile.lref
+E:\mercy\mercy\obj\Debug\mercy.exe
+E:\mercy\mercy\obj\Debug\mercy.pdb

@@ -11,7 +11,7 @@
             <Grid Background="#ff0069C0" Height="10"/>
             <Grid Margin="5">
                 <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" VerticalAlignment="Center" >
-                    <TextBlock Text="Admin" VerticalAlignment="Center" FontSize="20" FontFamily="Bodoni MT" Foreground="#FF9D9797" Margin="20 0" />
+                    <TextBlock Text="Mercy (Pvt)" VerticalAlignment="Center" FontSize="20" FontFamily="Bodoni MT" Foreground="#FF9D9797" Margin="20 0" />
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="10 0">
                     <Button Width="30" Height="30" Background="{x:Null}" BorderBrush="{x:Null}" Padding="0" Foreground="Gray" Margin="0 0 10 0" >
@@ -26,7 +26,10 @@
                 </StackPanel>
             </Grid>
         </StackPanel>
-        <Grid x:Name="GridPrincipal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="637,328,387,272"/>
+
+        <Grid Margin="250 55 0 0">
+            <Grid x:Name="GridPrincipal" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Grid>
         <Grid Width="250" HorizontalAlignment="Left" Background="#FF0069C0">
             <materialDesign:TransitioningContent x:Name="TriansitioningContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInfromLeft, Duration=0:0:0.2}" >
                 <Grid x:Name="GridCursor" Margin="0 177 0 0" Background="White" Width="10" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top"  />
@@ -34,26 +37,20 @@
             <ListView x:Name="ListviewMenu" Margin="0,177,0,23" Foreground="White" FontFamily="Bodoni MT" SelectionChanged="ListView_SelectionChanged">
                 <ListViewItem Height="50" >
                     <Grid>
-                        <materialDesign:PackIcon Kind="Home" Width="25" Height="25" VerticalAlignment="Center" Margin="5" />
-                        <TextBlock Text="Home" FontSize="18" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="73,0,-33.667,6"/>
+                        <materialDesign:PackIcon Kind="Account" Width="25" Height="25" VerticalAlignment="Center" Margin="5" />
+                        <TextBlock Text="Add user" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="73,5,-33.4,3"/>
                     </Grid>
                 </ListViewItem>
                 <ListViewItem Height="50" Selected="ListViewItem_Selected_1" >
                     <Grid>
-                        <materialDesign:PackIcon Kind="Store" Width="25" Height="25" VerticalAlignment="Center" Margin="5" />
-                        <TextBlock Text="Product" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="73,5,-33.4,3"/>
+                        <materialDesign:PackIcon Kind="Update" Width="25" Height="25" VerticalAlignment="Center" Margin="5" />
+                        <TextBlock Text="Update or Remove" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="73,5,-33.4,3"/>
                     </Grid>
                 </ListViewItem>
                 <ListViewItem Height="50" >
                     <Grid>
-                        <materialDesign:PackIcon Kind="Receipt" Width="25" Height="25" VerticalAlignment="Center" Margin="5" />
-                        <TextBlock Text="Report" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="73,5,-33.4,3"/>
-                    </Grid>
-                </ListViewItem>
-                <ListViewItem Height="50" >
-                    <Grid>
-                        <materialDesign:PackIcon Kind="Printer" Width="30" Height="30" VerticalAlignment="Center" Margin="5" />
-                        <TextBlock Text="Print" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="73,5,-33.4,3"/>
+                        <materialDesign:PackIcon Kind="Message" Width="25" Height="25" VerticalAlignment="Center" Margin="5" />
+                        <TextBlock Text="Send message" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="73,5,-33.4,3"/>
                     </Grid>
                 </ListViewItem>
             </ListView>

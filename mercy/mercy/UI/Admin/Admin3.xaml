@@ -11,7 +11,25 @@
         <Grid>
             <materialDesign:TransitioningContent x:Name="TriansitioningContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInfromLeft, Duration=0:0:0.8}" Margin="0,0,51,0" Grid.RowSpan="2" >
                 <Grid Background="Silver">
-                    <Label Content="3"/>
+                    <Label Content="Send Notification" HorizontalAlignment="Left" Margin="300,18,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="29" FontSize="18"/>
+                    <Label Content="Title" HorizontalAlignment="Left" Margin="69,64,0,0" VerticalAlignment="Top"/>
+                    <Button Content="Send" HorizontalAlignment="Left" Margin="529,465,0,0" VerticalAlignment="Top" Width="74" Background="#FF0036FF" BorderBrush="Black" Click="Send_btn_click"/>
+                    <TextBox HorizontalAlignment="Left" Margin="70,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="140" Width="297" Background="White"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="69,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="298" Background="White" CaretBrush="#FF07030E" TextChanged="TextBox_TextChanged"/>
+                    <Label Content="Description" HorizontalAlignment="Left" Margin="69,130,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Other Details" HorizontalAlignment="Left" Margin="69,316,0,0" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Margin="70,355,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Width="297" Foreground="Black" Background="WhiteSmoke"/>
+                    <RadioButton Content="Recepstionist" HorizontalAlignment="Left" Margin="515,153,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+                    <RadioButton Content="MLT" HorizontalAlignment="Left" Margin="515,210,0,0" VerticalAlignment="Top"/>
+                    <RadioButton Content="Pharmacist" HorizontalAlignment="Left" Margin="514,296,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_4"/>
+                    <RadioButton Content="OPD assistent" HorizontalAlignment="Left" Margin="514,241,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_6"/>
+                    <RadioButton Content="Employee" HorizontalAlignment="Left" Margin="514,268,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_5"/>
+                    <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="514,351,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_2"/>
+                    <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="515,324,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_3"/>
+                    <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="515,182,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_7"/>
+                    <RadioButton Content="All" HorizontalAlignment="Left" Margin="515,376,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_1"/>
+                    <Label Content="To" HorizontalAlignment="Left" Margin="478,112,0,0" VerticalAlignment="Top"/>
+
                 </Grid>
             </materialDesign:TransitioningContent>
         </Grid>

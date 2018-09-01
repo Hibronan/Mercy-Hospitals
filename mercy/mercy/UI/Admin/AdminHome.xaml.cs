@@ -24,5 +24,20 @@ namespace mercy.UI.Admin
         {
             InitializeComponent();
         }
+
+        private void Cancel_btn_click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Reset_btn_click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Submit_btn_click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

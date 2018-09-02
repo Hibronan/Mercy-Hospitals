@@ -19,26 +19,23 @@
                     <Label Content="Contact Number      :" HorizontalAlignment="Left" Height="31" Margin="414,123,0,0" VerticalAlignment="Top" Width="128"/>
                     <Label Content="E mail Address        :" HorizontalAlignment="Left" Height="35" Margin="414,171,0,0" VerticalAlignment="Top" Width="128"/>
                     <Label Content="Enter Password       :" HorizontalAlignment="Left" Height="31" Margin="414,272,0,0" VerticalAlignment="Top" Width="128"/>
-                    <Label Content="Confirm Password   :" HorizontalAlignment="Left" Height="31" Margin="414,317,0,0" VerticalAlignment="Top" Width="128"/>
-                    <Label Content="Gender        :" HorizontalAlignment="Left" Margin="67,317,0,0" VerticalAlignment="Top" Width="133" Height="33"/>
                     <Label Content="User ID                    :" HorizontalAlignment="Left" Height="31" Margin="414,218,0,0" VerticalAlignment="Top" Width="128"/>
-                    <TextBox HorizontalAlignment="Left" Height="31" Margin="196,115,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="First Name" VerticalAlignment="Top" Width="146" Background="{x:Null}"/>
-                    <TextBox HorizontalAlignment="Left" Height="35" Margin="196,161,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="Last Name" VerticalAlignment="Top" Width="146"/>
-                    <TextBox HorizontalAlignment="Left" Height="34" Margin="197,208,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="Age" VerticalAlignment="Top" Width="146"/>
-                    <TextBox HorizontalAlignment="Left" Height="32" Margin="196,261,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="Address" VerticalAlignment="Top" Width="146" />
-                    <TextBox HorizontalAlignment="Left" Height="23" Margin="561,121,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="07********" VerticalAlignment="Top" Width="120" />
-                    <TextBox HorizontalAlignment="Left" Height="23" Margin="561,169,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="e-mail" VerticalAlignment="Top" Width="120"/>
-                    <TextBox HorizontalAlignment="Left" Height="23" Margin="561,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-                    <RadioButton Content="Male" HorizontalAlignment="Left" Margin="196,329,0,0" VerticalAlignment="Top" Background="#FF1C1CE4"/>
-                    <RadioButton Content="Female" HorizontalAlignment="Left" Margin="283,329,0,0" VerticalAlignment="Top" Background="#FF1C1CE4"/>
-                    <TextBox HorizontalAlignment="Left" Height="32" Margin="561,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
-                    <TextBox HorizontalAlignment="Left" Height="33" Margin="561,307,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <TextBox Name="f_name" HorizontalAlignment="Left" Height="31" Margin="196,115,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="First Name" VerticalAlignment="Top" Width="146" Background="{x:Null}" />
+                    <TextBox Name="l_name" HorizontalAlignment="Left" Height="35" Margin="196,161,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="Last Name" VerticalAlignment="Top" Width="146"/>
+                    <TextBox Name="age" HorizontalAlignment="Left" Height="34" Margin="197,208,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="Age" VerticalAlignment="Top" Width="146"/>
+                    <TextBox Name="address" HorizontalAlignment="Left" Height="32" Margin="196,261,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="Address" VerticalAlignment="Top" Width="146" />
+                    <TextBox Name="contact" HorizontalAlignment="Left" Height="23" Margin="561,121,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="07********" VerticalAlignment="Top" Width="120" />
+                    <TextBox Name="email" HorizontalAlignment="Left" Height="23" Margin="561,169,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="e-mail" VerticalAlignment="Top" Width="120"/>
+                    <TextBox Name="userid" HorizontalAlignment="Left" Height="23" Margin="561,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+                    <TextBox Name="password" HorizontalAlignment="Left" Height="32" Margin="561,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
                     <Button Content="UPDATE" HorizontalAlignment="Left" Height="27" Margin="599,433,0,0" VerticalAlignment="Top" Width="82" Background="#FF1C1CE4" Click="Update_btn" />
                     <Button Content="DELETE" HorizontalAlignment="Left" Height="27" Margin="474,433,0,0" VerticalAlignment="Top" Width="82" Background="#FF1C1CE4" Click="Delete_btn" />
                     <Button Content="CANCEL" HorizontalAlignment="Left" Height="27" Margin="67,433,0,0" VerticalAlignment="Top" Width="82" Background="#FF1C1CE4" Click="Cancel_btn"/>
                     <Label Content="Enter ID                          :" HorizontalAlignment="Left" Height="31" Margin="67,47,0,0" VerticalAlignment="Top" Width="177"/>
-                    <TextBox HorizontalAlignment="Left" Height="30" Margin="234,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="308" Background="#FFF3F0F0"/>
+                    <TextBox Name="search" HorizontalAlignment="Left" Height="30" Margin="234,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="308" Background="#FFF3F0F0" />
                     <Button Content="SEARCH" HorizontalAlignment="Left" Height="27" Margin="599,46,0,0" VerticalAlignment="Top" Width="82" Click="Search_btn_click" Background="#FF1C1CE4"/>
+                    <Label Content="User Type    :" HorizontalAlignment="Left" Margin="67,330,0,0" VerticalAlignment="Top" Width="133" Height="33"/>
+                    <TextBox Name="user_type" HorizontalAlignment="Left" Height="32" Margin="197,325,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="User type" VerticalAlignment="Top" Width="146" />
                 </Grid>
             </materialDesign:TransitioningContent>
         </Grid>

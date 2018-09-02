@@ -33,7 +33,7 @@
             <Label Content="Username" HorizontalAlignment="Left" Margin="394,264,0,0" VerticalAlignment="Top" Height="29" Width="99"/>
             <TextBox Name="userName" Background="White" HorizontalAlignment="Left" Height="32" Margin="394,293,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="  @username" VerticalAlignment="Top" Width="230" CaretBrush="Black"/>
             <Label Content="Password" HorizontalAlignment="Left" Margin="394,341,0,0" VerticalAlignment="Top"/>
-            <TextBox Name="password" Background="White" HorizontalAlignment="Left" Height="32" Margin="394,373,0,0" TextWrapping="Wrap" materialDesign:HintAssist.FloatingScale="098765" materialDesign:HintAssist.Hint="  password" VerticalAlignment="Top" Width="230" CaretBrush="Black"/>
+            <PasswordBox Name="password" Background="White" HorizontalAlignment="Left" Height="32" Margin="394,373,0,0" materialDesign:HintAssist.FloatingScale="098765" materialDesign:HintAssist.Hint="  password" VerticalAlignment="Top" Width="230" CaretBrush="Black"/>
             <Button Content="Login" Background="#FF0069C0" HorizontalAlignment="Left" Margin="394,434,0,0" VerticalAlignment="Top" Width="230" BorderBrush="Black" Click="Button_Click"/>
         </Grid>
     </Grid>

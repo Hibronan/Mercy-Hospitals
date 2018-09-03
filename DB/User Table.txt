@@ -1,4 +1,4 @@
-select  from userCREATE TABLE `user` (
+CREATE TABLE `user` (
   `iduser` int(11) NOT NULL AUTO_INCREMENT,
   `firstName` varchar(45) NOT NULL,
   `lastName` varchar(45) DEFAULT NULL,

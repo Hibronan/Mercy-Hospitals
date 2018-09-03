@@ -11,3 +11,7 @@ CREATE TABLE `user` (
   `address` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`iduser`)
 );
+
+# iduser, firstName, lastName, age, gender, contact_number, email, userType, pw, address
+
+   2,Ashif, Ahmed, 23, Male, 777121514, as@gmail.com, Pharmacist, 1234, sdfghjkl

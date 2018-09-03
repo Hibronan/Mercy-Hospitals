@@ -23,6 +23,9 @@ namespace mercy
         public Pharmacist()
         {
             InitializeComponent();
+            GridPrincipal.Children.Clear();
+            GridPrincipal.Children.Add(new PharmacyBilling());
+
         }
         private void ButtonClose_Click(object sender, RoutedEventArgs e)
         {

@@ -24,5 +24,26 @@ namespace mercy.UI.Pharmacist
         {
             InitializeComponent();
         }
+
+
+        private void Sale_Search(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Sales_Print(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Sales_Filter(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Sales_LoadFullTb(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

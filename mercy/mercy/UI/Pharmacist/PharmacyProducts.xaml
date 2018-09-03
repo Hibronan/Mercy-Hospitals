@@ -4,16 +4,98 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:mercy"
-              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-             mc:Ignorable="d" 
+               xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+              mc:Ignorable="d" 
              Height="auto" Width="auto">
     <Grid Height="540" Width="810" Margin="10 10 10 10">
         <Grid>
             <materialDesign:TransitioningContent x:Name="TriansitioningContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInfromLeft, Duration=0:0:0.8}" Margin="0,0,51,0" Grid.RowSpan="2" >
-                <Grid Background="Silver">
-                    <Label Content="Home"/>
+                <Grid Background="Silver" >
+                    <Label Content="Inventroy" HorizontalAlignment="Left" Margin="318,27,0,0" VerticalAlignment="Top" FontSize="24" Background="#00000000" FontWeight="Bold" FontFamily="Segoe UI Black"/>
+                    <TabControl>
+                        <TabItem Header="Add Medicine" >
+                            <Grid Background="Silver">
+                                <DataGrid ItemsSource="{Binding}" Name="MedicineGrid1" HorizontalAlignment="Left" Height="219" Margin="17,261,0,0" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" VerticalAlignment="Top" Width="720" GridLinesVisibility="All" VerticalGridLinesBrush="#FFDEDEDE" HeadersVisibility="All" MouseDoubleClick="DataGrid_AddMedicine" SelectionMode="Single" CanUserResizeColumns="False" />
+                                <TextBox  Name="M_name" Background="White" HorizontalAlignment="Left" Height="26" Margin="150,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" TextAlignment="Center" CaretBrush="#FF101011" SelectionBrush="#FF060708"/>
+                                <Label Content="Name*&#xA;" HorizontalAlignment="Left" Margin="28,20,0,0" VerticalAlignment="Top" Height="26" Width="72"/>
+                                <TextBox Name="M_companyName" Background="White" HorizontalAlignment="Left" Height="26" Margin="150,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" TextAlignment="Center" CaretBrush="#FF101011" SelectionBrush="#FF060708"/>
+                                <Label Content="Company Name*&#xA;" HorizontalAlignment="Left" Margin="28,52,0,0" VerticalAlignment="Top" Height="26" Width="103"/>
+                                <TextBox Name="M_Qty" Background="White" HorizontalAlignment="Left" Height="26" Margin="150,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" TextAlignment="Center" CaretBrush="#FF101011" SelectionBrush="#FF060708"/>
+                                <Label Content="Quantity*&#xA;" HorizontalAlignment="Left" Margin="28,84,0,0" VerticalAlignment="Top" Height="26" Width="72"/>
+                                <TextBox Name="M_cost" Background="White" HorizontalAlignment="Left" Height="26" Margin="150,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" TextAlignment="Center" CaretBrush="#FF101011" SelectionBrush="#FF060708"/>
+                                <Label Content="Cost*&#xA;" HorizontalAlignment="Left" Margin="28,116,0,0" VerticalAlignment="Top" Height="26" Width="70"/>
+                                <TextBox Name="M_sPrice" Background="White" HorizontalAlignment="Left" Height="26" Margin="150,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" TextAlignment="Center" CaretBrush="#FF101011" SelectionBrush="#FF060708"/>
+                                <Label Content="Selling Price*&#xA;" HorizontalAlignment="Left" Margin="29,149,0,0" VerticalAlignment="Top" Height="26" Width="79"/>
+                                <Label Content="Manufacture date*&#xA;" HorizontalAlignment="Left" Margin="29,181,0,0" VerticalAlignment="Top" Height="26" Width="107"/>
+                                <Label Content="expiry date*&#xA;" HorizontalAlignment="Left" Margin="29,213,0,0" VerticalAlignment="Top" Height="26" Width="82"/>
+                                <DatePicker Name="M_manuDate" HorizontalAlignment="Left" Margin="151,184,0,0" VerticalAlignment="Top" Height="22" Width="119" Background="White" SelectedDateFormat="Short"/>
+                                <DatePicker Name="M_expDate" HorizontalAlignment="Left" Margin="151,214,0,0" VerticalAlignment="Top" Width="120" Background="White"/>
+                                <!--<TextBox Name="M_manuDate" materialDesign:HintAssist.Hint="  yyyy/mm/dd" HorizontalAlignment="Left" Margin="151,184,0,0" VerticalAlignment="Top" Height="22" Width="119" Background="White"/>
+                                <TextBox Name="M_expDate" materialDesign:HintAssist.Hint="  yyyy/mm/dd" HorizontalAlignment="Left" Margin="151,214,0,0" VerticalAlignment="Top" Width="120" Background="White"/>-->
+                                <Button Content="Add" HorizontalAlignment="Left" Margin="334,208,0,0" VerticalAlignment="Top" Width="86" Background="#FF0069C0" Click="Add_medicine_add" BorderBrush="#FF080808"/>
+                                <Button Content="Reset" HorizontalAlignment="Left" Margin="444,208,0,0" VerticalAlignment="Top" Width="86" Click="Add_medicine_reset" Background="#FF0069C0" BorderBrush="#FF181718"/>
+                                <Button Content="Load Full&#xA;   Table" HorizontalAlignment="Left" Margin="649,221,0,0" VerticalAlignment="Top" Width="86" Click="Add_medicine_LoadFullTb" Background="#FF0069C0" BorderBrush="#FF181718" FontSize="10"/>
+
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Medicine" >
+                            <Grid Background="Silver">
+                                <TextBox Name="M_upSearch" HorizontalAlignment="Left" Height="26" Margin="106,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" TextAlignment="Center" CaretBrush="#FF272728" FontSize="14" Background="White" SelectionBrush="Black" TextChanged="M_upSearch_TextChanged"/>
+                                <TextBox Name="M_upId" Background="White" HorizontalAlignment="Left" Height="26" Margin="584,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" TextAlignment="Center" CaretBrush="#FF101011" SelectionBrush="#FF060708" IsReadOnly="True" IsReadOnlyCaretVisible="True"/>
+                                <Label Content="Id&#xA;" HorizontalAlignment="Left" Margin="553,14,0,0" VerticalAlignment="Top" Height="26" Width="72"/>
+
+                                <TextBox Name="M_upName" Background="White" HorizontalAlignment="Left" Height="26" Margin="422,15,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" TextAlignment="Center" CaretBrush="#FF101011" SelectionBrush="#FF060708"/>
+                                <Label Content="Name&#xA;" HorizontalAlignment="Left" Margin="297,17,0,0" VerticalAlignment="Top" Height="26" Width="72"/>
+                                <TextBox Name="M_opCompanyName" Background="White" HorizontalAlignment="Left" Height="26" Margin="422,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" TextAlignment="Center" CaretBrush="#FF101011" SelectionBrush="#FF060708"/>
+                                <Label Content="Company Name&#xA;" HorizontalAlignment="Left" Margin="296,50,0,0" VerticalAlignment="Top" Height="26" Width="103"/>
+                                <TextBox Name="M_upQty" Background="White" HorizontalAlignment="Left" Height="26" Margin="422,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" TextAlignment="Center" CaretBrush="#FF101011" SelectionBrush="#FF060708"/>
+                                <Label Content="Quantity&#xA;" HorizontalAlignment="Left" Margin="296,82,0,0" VerticalAlignment="Top" Height="26" Width="72"/>
+                                <TextBox Name="M_upCost" Background="White" HorizontalAlignment="Left" Height="26" Margin="422,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" TextAlignment="Center" CaretBrush="#FF101011" SelectionBrush="#FF060708"/>
+                                <Label Content="Cost&#xA;" HorizontalAlignment="Left" Margin="296,114,0,0" VerticalAlignment="Top" Height="26" Width="70"/>
+                                <TextBox Name="M_upSellPrice" Background="White" HorizontalAlignment="Left" Height="26" Margin="422,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" TextAlignment="Center" CaretBrush="#FF101011" SelectionBrush="#FF060708"/>
+                                <Label Content="Selling Price&#xA;" HorizontalAlignment="Left" Margin="297,147,0,0" VerticalAlignment="Top" Height="26" Width="79"/>
+                                <DatePicker Name="M_upMenuDate" Background="White" HorizontalAlignment="Left" Height="26" Margin="422,179,0,0"  VerticalAlignment="Top" Width="120" FontSize="14" />
+                                <Label Content="Manufacture date&#xA;" HorizontalAlignment="Left" Margin="297,179,0,0" VerticalAlignment="Top" Height="26" Width="107"/>
+                                <DatePicker Name="M_upExpDate"  Background="White" HorizontalAlignment="Left" Height="26" Margin="422,211,0,0"  VerticalAlignment="Top" Width="120" FontSize="14" />
+                                <Label Content="expiry date&#xA;" HorizontalAlignment="Left" Margin="297,211,0,0" VerticalAlignment="Top" Height="26" Width="82"/>
+                                <Button Content="Reset" HorizontalAlignment="Left" Margin="12,209,0,0" VerticalAlignment="Top" Width="67" Click="Medicine_reset" Background="#FF0069C0" BorderBrush="#FF181718"/>
+                                <Button Content="Update" HorizontalAlignment="Left" Margin="92,209,0,0" VerticalAlignment="Top" Width="82" Click="Medicine_update" Background="#FF0069C0" BorderBrush="#FF181718"/>
+                                <Button Content="Load Full&#xA;   Table" HorizontalAlignment="Left" Margin="649,222,0,0" VerticalAlignment="Top" Width="86" Click="Medicine_loadfullTb" Background="#FF0069C0" BorderBrush="#FF181718" FontSize="10"/>
+                                <Button Content="Remove" HorizontalAlignment="Left" Margin="184,209,0,0" VerticalAlignment="Top" Width="85" Click="Medicine_Remove" Background="#FF0069C0" BorderBrush="#FF181718"/>
+                                <DataGrid Name="MedicineGrid" ItemsSource="{Binding}" HorizontalAlignment="Left" Height="222" Margin="17,261,0,0" VerticalAlignment="Top" Width="720" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" HeadersVisibility="All" GridLinesVisibility="All" VerticalGridLinesBrush="#FFDEDEDE" SelectionChanged="MedicineGrid_SelectionChanged"/>
+                                <Label Content="Search&#xA;" HorizontalAlignment="Left" Margin="32,16,0,0" VerticalAlignment="Top" Height="26" Width="72"/>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Stock" >
+                            <Grid Background="Silver">
+                                <DataGrid HorizontalAlignment="Left" Height="180" Margin="17,69,0,0" VerticalAlignment="Top" Width="720"/>
+                                <Button Content="Load Full&#xA;   Table" HorizontalAlignment="Left" Margin="649,24,0,0" VerticalAlignment="Top" Width="86" Click="Stock_loadFulltb" Background="#FF0069C0" BorderBrush="#FF181718" FontSize="10"/>
+                                <TextBox HorizontalAlignment="Left" Height="32" Margin="24,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191" TextAlignment="Center" CaretBrush="#FF272728" FontSize="14" Background="White" SelectionBrush="Black"/>
+                                <Button Content="Search" HorizontalAlignment="Left" Margin="232,19,0,0" VerticalAlignment="Top" Width="86" Click="Stock_search" Background="#FF0069C0" BorderBrush="#FF181718"/>
+                                <DataGrid HorizontalAlignment="Left" Height="126" Margin="17,331,0,0" VerticalAlignment="Top" Width="720"/>
+                                <Label Content="Request List" HorizontalAlignment="Left" Margin="20,306,0,0" VerticalAlignment="Top"/>
+                                <Button Content="Confirm And Send" HorizontalAlignment="Left" Margin="560,466,0,0" VerticalAlignment="Top" Width="153" Click="Stock_Req_Comfrim" Background="#FF0069C0" BorderBrush="#FF181718"/>
+                                <Button Content="Add To Request" HorizontalAlignment="Left" Margin="57,266,0,0" VerticalAlignment="Top" Width="139" Background="#FF0069C0" Click="Stock_addRequset" BorderBrush="#FF080808"/>
+                                <Button Content="Remove" HorizontalAlignment="Left" Margin="80,465,0,0" VerticalAlignment="Top" Width="85" Click="Stock_Req_Remove" Background="#FF0069C0" BorderBrush="#FF181718"/>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Invoice" >
+                            <Grid Background="Silver"/>
+                        </TabItem>
+                        <TabItem Header="Transection" >
+                            <Grid Background="Silver">
+
+                                <DataGrid HorizontalAlignment="Left" Height="387" Margin="23,48,0,0" VerticalAlignment="Top" Width="707"/>
+                                <Button Content="Load Full&#xA;   Table" HorizontalAlignment="Left" Margin="638,7,0,0" VerticalAlignment="Top" Width="86" Click="Transection_LoadFullTb" Background="#FF0069C0" BorderBrush="#FF181718" FontSize="10"/>
+
+                            </Grid>
+                        </TabItem>
+
+                    </TabControl>
                 </Grid>
             </materialDesign:TransitioningContent>
         </Grid>
+        <DatePicker HorizontalAlignment="Left" Margin="-82,241,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </UserControl>

@@ -38,13 +38,13 @@
                 <ListViewItem Height="50" >
                     <Grid>
                         <materialDesign:PackIcon Kind="Home" Width="25" Height="25" VerticalAlignment="Center" Margin="5" />
-                        <TextBlock Text="Home" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="73,5,-33.4,3"/>
+                        <TextBlock Text="Billing" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="73,5,-33.4,3"/>
                     </Grid>
                 </ListViewItem>
                 <ListViewItem Height="50" Selected="ListViewItem_Selected_1" >
                     <Grid>
                         <materialDesign:PackIcon Kind="Store" Width="25" Height="25" VerticalAlignment="Center" Margin="5" />
-                        <TextBlock Text="Product" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="73,5,-33.4,3"/>
+                        <TextBlock Text="Inventroy" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="73,5,-33.4,3"/>
                     </Grid>
                 </ListViewItem>
                 <ListViewItem Height="50" >
@@ -53,12 +53,7 @@
                         <TextBlock Text="Report" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="73,5,-33.4,3"/>
                     </Grid>
                 </ListViewItem>
-                <ListViewItem Height="50" >
-                    <Grid>
-                        <materialDesign:PackIcon Kind="Printer" Width="30" Height="30" VerticalAlignment="Center" Margin="5" />
-                        <TextBlock Text="Print" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="73,5,-33.4,3"/>
-                    </Grid>
-                </ListViewItem>
+                
             </ListView>
             <Image HorizontalAlignment="Left" Height="182" Margin="10,0,0,0" VerticalAlignment="Top" Width="240" Source="..\..\Assets\Logo.png"/>
         </Grid>

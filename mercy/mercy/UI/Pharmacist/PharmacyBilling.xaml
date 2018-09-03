@@ -10,9 +10,30 @@
     <Grid Height="540" Width="810" Margin="10 10 10 10">
         <Grid>
             <materialDesign:TransitioningContent x:Name="TriansitioningContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInfromLeft, Duration=0:0:0.8}" Margin="0,0,51,0" Grid.RowSpan="2" >
-                <Grid Background="Silver">
-                    <Label Content="Home"/>
+                <Grid Background="Silver" Margin="0,0,0.2,0">
+                    <TextBlock Text="Billing" FontSize="24" FontFamily="Cooper Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="333,10,335.2,492" Height="38" Width="91"/>
+                    <TextBox x:Name="Billing_Search" HorizontalAlignment="Left" Height="29" Margin="97,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="215" TextAlignment="Center" CaretBrush="#FF272728" FontSize="14" Background="White" SelectionBrush="Black" TextChanged="Billing_Search_TextChanged"/>
+                    <DataGrid Name="BillingGrid" ItemsSource="{Binding}" Background="White" HorizontalAlignment="Left" Height="328" Margin="412,62,0,0"  VerticalAlignment="Top" Width="313" SelectionChanged="BillingGrid_SelectionChanged">
+
+                    </DataGrid>
+                    <Button HorizontalAlignment="Left" Margin="10,11,0,0" VerticalAlignment="Top" Width="50" Height="24" Click="Button_Click" Background="#FF0069C0" BorderBrush="Black">
+                        <materialDesign:PackIcon Kind="Refresh" Width="14" Height="15" VerticalAlignment="Center" HorizontalAlignment="Left" RenderTransformOrigin="-0.3,0.693" />
+                    </Button>
+                    <Button Content="Add" HorizontalAlignment="Left" Margin="60,471,0,0" VerticalAlignment="Top" Width="75" Background="#FF0069C0" Click="Billing_Add" BorderBrush="#FF080808"/>
+                    <Button Content="Remove" HorizontalAlignment="Left" Margin="178,471,0,0" VerticalAlignment="Top" Width="86" Click="Button_Click_5" Background="#ff0069c0" BorderBrush="#FF181718"/>
+                    <DataGrid Name="BillingSearchGrid" ItemsSource="{Binding}" AutoGenerateColumns="True" Background="White" HorizontalAlignment="Left" Height="194" Margin="16,109,0,0" VerticalAlignment="Top" Width="369" SelectionChanged="BillingSearchGrid_SelectionChanged"/>
+                    <Button Content="Bill" HorizontalAlignment="Left" Margin="573,431,0,0" VerticalAlignment="Top" Width="151" Height="66" Background="#FF2EBD19" BorderBrush="#FF141315" Click="Button_Click_3"/>
+                    <Button Content="Cancel" HorizontalAlignment="Left" Margin="411,431,0,0" VerticalAlignment="Top" Width="151" Height="66" Background="#FFCD3D25" BorderBrush="#FF0D0D0E" Click="Button_Click_4"/>
+                    <TextBox Name="M_Qty" Background="White" HorizontalAlignment="Left" Height="26" Margin="135,360,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="66" FontSize="14" TextAlignment="Center" CaretBrush="#FF272728" SelectionBrush="#FF0A0F12"/>
+                    <Label Content="Quantity*&#xA;" HorizontalAlignment="Left" Margin="44,359,0,0" VerticalAlignment="Top" Height="24" Width="62"/>
+                    <TextBox Name="M_Id" Background="White" HorizontalAlignment="Left" Height="26" Margin="135,317,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" TextAlignment="Center" CaretBrush="#FF101011" SelectionBrush="#FF060708"/>
+                    <Label Content="ID " HorizontalAlignment="Left" Margin="44,317,0,0" VerticalAlignment="Top" Height="24" Width="72"/>
+                    <TextBox Name="M_Discount" Background="White" HorizontalAlignment="Left" Height="26" Margin="135,401,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="66" FontSize="14" TextAlignment="Center" CaretBrush="#FF272728" SelectionBrush="#FF1C1E20"/>
+                    <Label Content="Discount(%)&#xA;" HorizontalAlignment="Left" Margin="44,400,0,0" VerticalAlignment="Top" Height="24" Width="74"/>
+                    <Label Content="Search&#xA;" HorizontalAlignment="Left" Margin="36,60,0,0" VerticalAlignment="Top" Height="24" Width="72"/>
+
                 </Grid>
+
             </materialDesign:TransitioningContent>
         </Grid>
     </Grid>

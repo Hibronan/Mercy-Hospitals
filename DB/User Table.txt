@@ -12,6 +12,4 @@ CREATE TABLE `user` (
   PRIMARY KEY (`iduser`)
 );
 
-# iduser, firstName, lastName, age, gender, contact_number, email, userType, pw, address
-
-   2,Ashif, Ahmed, 23, Male, 777121514, as@gmail.com, Pharmacist, 1234, sdfghjkl
+insert into (iduser, firstName, lastName, age, gender, contact_number, email, userType, pw, address) values(2,'Aashif', 'Ahamed', 23, 'Male', 777121514, 'as@gmail.com', 'Pharmacist','1234', 'sdfghjkl')

@@ -12,30 +12,45 @@
             <materialDesign:TransitioningContent x:Name="TriansitioningContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInfromLeft, Duration=0:0:0.8}" Margin="0,0,51,0" Grid.RowSpan="2" >
                 <Grid  Background="Silver" >
                     <Label Content="First Name     :" HorizontalAlignment="Left" Margin="63,81,0,0" VerticalAlignment="Top" Height="39" Width="133"/>
-                    <TextBox HorizontalAlignment="Left" Height="31" Margin="196,77,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="First Name" VerticalAlignment="Top" Width="146" Background="{x:Null}"/>
+                    <TextBox Name="f_name" HorizontalAlignment="Left" Height="31" Margin="196,77,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="First Name" VerticalAlignment="Top" Width="146" Background="{x:Null}"/>
                     <Label Content="Last Name     :" HorizontalAlignment="Left" Height="35" Margin="63,131,0,0" VerticalAlignment="Top" Width="133"/>
-                    <TextBox HorizontalAlignment="Left" Height="35" Margin="196,123,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="Last Name" VerticalAlignment="Top" Width="146"/>
-                    <TextBox HorizontalAlignment="Left" Height="32" Margin="196,223,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="Address" VerticalAlignment="Top" Width="146"/>
+                    <TextBox  Name="l_name" HorizontalAlignment="Left" Height="35" Margin="196,123,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="Last Name" VerticalAlignment="Top" Width="146"/>
+                    <TextBox  Name="address" HorizontalAlignment="Left" Height="32" Margin="196,223,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="Address" VerticalAlignment="Top" Width="146"/>
                     <Label Content="Age               :" HorizontalAlignment="Left" Margin="63,177,0,0" VerticalAlignment="Top" Width="133" Height="36"/>
-                    <TextBox HorizontalAlignment="Left" Height="34" Margin="197,170,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="Age" VerticalAlignment="Top" Width="146"/>
+                    <TextBox PreviewTextInput="NumberValidationAge"   Name="age" HorizontalAlignment="Left" Height="34" Margin="197,170,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="Age" VerticalAlignment="Top" Width="146"/>
                     <Label Content="Address        :" HorizontalAlignment="Left" Margin="63,229,0,0" VerticalAlignment="Top" Width="133" Height="33"/>
-                    <Label Content="Contact Number      :" HorizontalAlignment="Left" Height="31" Margin="410,82,0,0" VerticalAlignment="Top" Width="128"/>
-                    <Label Content="E mail Address        :" HorizontalAlignment="Left" Height="35" Margin="410,130,0,0" VerticalAlignment="Top" Width="128"/>
-                    <Label Content="Enter Password       :" HorizontalAlignment="Left" Height="31" Margin="410,231,0,0" VerticalAlignment="Top" Width="128"/>
-                    <Label Content="Confirm Password   :" HorizontalAlignment="Left" Height="31" Margin="410,276,0,0" VerticalAlignment="Top" Width="128"/>
-                    <TextBox HorizontalAlignment="Left" Height="23" Margin="561,83,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="07********" VerticalAlignment="Top" Width="120" />
-                    <TextBox HorizontalAlignment="Left" Height="23" Margin="561,131,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="e-mail" VerticalAlignment="Top" Width="120"/>
-                    <TextBox HorizontalAlignment="Left" Height="23" Margin="561,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-                    <Button Content="Submit" HorizontalAlignment="Left" Height="27" Margin="599,371,0,0" VerticalAlignment="Top" Width="82" Background="#FF1C1CE4" Click="Submit_btn_click"/>
-                    <Button Content="Cancel" HorizontalAlignment="Left" Height="27" Margin="63,371,0,0" VerticalAlignment="Top" Width="82" Click="Cancel_btn_click" Background="#FF1C1CE4"/>
-                    <Button Content="Reset" HorizontalAlignment="Left" Height="27" Margin="338,371,0,0" VerticalAlignment="Top" Width="82" Background="#FF1C1CE4" Click="Reset_btn_click"/>
+                    <Label Content="Contact Number      :" HorizontalAlignment="Left" Height="31" Margin="408,82,0,0" VerticalAlignment="Top" Width="128"/>
+                    <Label Content="E mail Address       :" HorizontalAlignment="Left" Height="35" Margin="410,130,0,0" VerticalAlignment="Top" Width="128"/>
+                    <Label Content="Enter Password       :" HorizontalAlignment="Left" Height="31" Margin="410,263,0,0" VerticalAlignment="Top" Width="128"/>
+                    <Label Content="Confirm Password   :" HorizontalAlignment="Left" Height="31" Margin="410,308,0,0" VerticalAlignment="Top" Width="128"/>
+                    <TextBox  Name="contact" HorizontalAlignment="Left" Height="23" Margin="561,83,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="07********" VerticalAlignment="Top" Width="120" />
+                    <TextBox  Name="email" HorizontalAlignment="Left" Height="23" Margin="561,131,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="e-mail" VerticalAlignment="Top" Width="120" />
+                    <TextBox Name="UserId" HorizontalAlignment="Left" Height="23" Margin="561,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+                    <Button Content="Submit" HorizontalAlignment="Left" Height="27" Margin="599,419,0,0" VerticalAlignment="Top" Width="82" Background="#FF1C1CE4" Click="Submit_btn_click"/>
+                    <Button Content="Cancel" HorizontalAlignment="Left" Height="27" Margin="63,419,0,0" VerticalAlignment="Top" Width="82" Click="Cancel_btn_click" Background="#FF1C1CE4"/>
+                    <Button Content="Reset" HorizontalAlignment="Left" Height="27" Margin="330,419,0,0" VerticalAlignment="Top" Width="82" Background="#FF1C1CE4" Click="Reset_btn_click"/>
                     <Label Content="Gender        :" HorizontalAlignment="Left" Margin="63,276,0,0" VerticalAlignment="Top" Width="133" Height="33"/>
-                    <RadioButton Content="Male" HorizontalAlignment="Left" Margin="196,291,0,0" VerticalAlignment="Top" Background="#FF1C1CE4"/>
-                    <RadioButton Content="Female" HorizontalAlignment="Left" Margin="283,291,0,0" VerticalAlignment="Top" Background="#FF1C1CE4"/>
-                    <Label Content="User ID                    :" HorizontalAlignment="Left" Height="31" Margin="410,177,0,0" VerticalAlignment="Top" Width="128"/>
-                    <TextBox HorizontalAlignment="Left" Height="32" Margin="561,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
-                    <TextBox HorizontalAlignment="Left" Height="33" Margin="561,269,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-                    <Label Content="ADD USER1" HorizontalAlignment="Left" Height="30" Margin="330,10,0,0" VerticalAlignment="Top" Width="105" FontWeight="Bold"/>
+                    <Label Content="User ID                   :" HorizontalAlignment="Left" Height="31" Margin="410,177,0,0" VerticalAlignment="Top" Width="128"/>
+                    <PasswordBox  Name="password" HorizontalAlignment="Left" Height="32" Margin="561,255,0,0"  VerticalAlignment="Top" Width="120" />
+                    <PasswordBox  Name="validpassword" HorizontalAlignment="Left" Height="33" Margin="561,301,0,0"  VerticalAlignment="Top" Width="120"/>
+                    <Label Content="ADD USER" HorizontalAlignment="Left" Height="30" Margin="330,10,0,0" VerticalAlignment="Top" Width="105" FontWeight="Bold"/>
+                    <ComboBox Name="typeCombobox" HorizontalAlignment="Left" Height="31" Margin="557,211,0,0" VerticalAlignment="Top" Width="149">
+                        <ComboBoxItem Content="Admin"></ComboBoxItem>
+                        <ComboBoxItem Content="Accountant"></ComboBoxItem>
+                        <ComboBoxItem Content="OPD"></ComboBoxItem>
+                        <ComboBoxItem Content="MLT"></ComboBoxItem>
+                        <ComboBoxItem Content="Employee Assistant"></ComboBoxItem>
+                        <ComboBoxItem Content="Manager"></ComboBoxItem>
+                        <ComboBoxItem Content="Pharmacist"></ComboBoxItem>
+                        <ComboBoxItem Content="Receptionist"></ComboBoxItem>
+                        <ComboBoxItem Content="Sttore Manager"></ComboBoxItem>
+                    </ComboBox>
+                    <Label Content="User Type               :" HorizontalAlignment="Left" Height="31" Margin="410,215,0,0" VerticalAlignment="Top" Width="128"/>
+                    <ComboBox Name="genderCombobox" HorizontalAlignment="Left" Height="28" Margin="196,276,0,0" VerticalAlignment="Top" Width="146">
+                        <ComboBoxItem Content="Male"></ComboBoxItem>
+                        <ComboBoxItem Content="Female"></ComboBoxItem>
+                        <ComboBox Width="120"/>
+                    </ComboBox>
                 </Grid>
             </materialDesign:TransitioningContent>
         </Grid>

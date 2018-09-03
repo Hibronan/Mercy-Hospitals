@@ -1,0 +1,13 @@
+CREATE TABLE `user` (
+  `iduser` int(11) NOT NULL AUTO_INCREMENT,
+  `firstName` varchar(45) NOT NULL,
+  `lastName` varchar(45) DEFAULT NULL,
+  `age` int(3) DEFAULT NULL,
+  `gender` varchar(45) NOT NULL,
+  `contact_number` int(10) NOT NULL,
+  `email` varchar(45) NOT NULL,
+  `userType` varchar(45) NOT NULL,
+  `pw` varchar(45) NOT NULL,
+  `address` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`iduser`)
+);

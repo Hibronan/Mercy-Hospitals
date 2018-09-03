@@ -1,4 +1,6 @@
-﻿using System;
+﻿using mercy.Model;
+using mercy.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +22,8 @@ namespace mercy
     /// </summary>
     public partial class MainWindow : Window
     {
+       
+
         public MainWindow()
         {
             InitializeComponent();
@@ -52,66 +56,86 @@ namespace mercy
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string userName1 = userName.Text;
-            string PW = password.Text;
+
+            if (userName.Text.Length == 0 || password.Password.Length == 0)
+            {
+                MessageBox.Show ("Enter an email.");
+                userName.Focus();
+            }
+            
+            int userName1 =Convert.ToInt32(userName.Text);
+            String PW = password.Password.ToString();
             Console.WriteLine(userName1);
             Console.WriteLine(PW);
 
-            if ((userName1=="Admin")&&(PW=="1234")) {
+            User user = new User();
+            User userRes = new User();
+            UserViewModel userViewModel = new UserViewModel();
+
+            user.SetUserId(Convert.ToInt32(userName.Text));
+            userRes = userViewModel.SearchUserById(user);
+
+            Console.WriteLine(userRes.GetFirstName());
+            Console.WriteLine(userRes.GetUserId());
+
+
+            if ((userRes.GetUserType() == "Admin") &&(PW== userRes.GetPassWord())) {
                 AdminWindow win1 = new AdminWindow();
                 win1.Show();
                 this.Close();
 
-            } else if ((userName1 == "Account") && (PW == "1234")) {
+            } else if ((userRes.GetUserType() == "Accountant") && (PW == userRes.GetPassWord())) {
                 AssistantAccountant win1 = new AssistantAccountant();
                 win1.Show();
                 this.Close();
 
-            } else if ((userName1 == "OPD") && (PW == "1234")) {
+            } else if ((userRes.GetUserType() == "OPD") && (PW == userRes.GetPassWord())) {
                 OPDAssistance win1 = new OPDAssistance();
                 win1.Show();
                 this.Close();
 
-            } else if ((userName1 == "MLT") && (PW == "1234")) {
+            } else if ((userRes.GetUserType() == "MLT") && (PW == userRes.GetPassWord())) {
                 MLTAssistance win1 = new MLTAssistance();
                 win1.Show();
                 this.Close();
 
-            } else if ((userName1 == "EmployeeAssistant") && (PW == "1234")) {
+            } else if ((userRes.GetUserType() == "Employee Assistant") && (PW == userRes.GetPassWord())) {
                 EmployeeAssistant win1 = new EmployeeAssistant();
                 win1.Show();
                 this.Close();
 
             }
-            else if ((userName1 == "Manager") && (PW == "1234")){
+            else if ((userRes.GetUserType() == "Manager") && (PW == userRes.GetPassWord())){
                 Manager win1 = new Manager();
                 win1.Show();
                 this.Close();
 
             }
-            else if ((userName1 == "Pharmacist") && (PW == "1234")){
+            else if ((userRes.GetUserType() == "Pharmacist") && (PW == userRes.GetPassWord())){
                 Pharmacist win1 = new Pharmacist();
                 win1.Show();
                 this.Close();
 
             }
-            else if ((userName1 == "Receptionist") && (PW == "1234")){
+            else if ((userRes.GetUserType() == "Receptionist") && (PW == userRes.GetPassWord())){
                 Receptionist win1 = new Receptionist();
                 win1.Show();
                 this.Close();
 
             }
-            else if ((userName1 == "StoreManager") && (PW == "1234")){
+            else if ((userRes.GetUserType() == "Sttore Manager") && (PW == userRes.GetPassWord())){
                 StoreManager win1 = new StoreManager();
                 win1.Show();
                 this.Close();
 
             }
             else{
-                MainWindow win1 = new MainWindow();
-                win1.Show();
-                this.Close();
-
+                //MainWindow win1 = new MainWindow();
+                //win1.Show();
+                //this.Close();
+                MessageBox.Show("Invalid Username OR Password");
+                password.Clear();
+                userName.Clear();
             }
         }
     }

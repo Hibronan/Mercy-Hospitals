@@ -61,6 +61,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Model\Medicine.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="UI\Admin\Admin2.xaml.cs">
       <DependentUpon>Admin2.xaml</DependentUpon>
@@ -207,6 +208,7 @@
       <DependentUpon>UserControlReport.xaml</DependentUpon>
     </Compile>
     <Compile Include="Validation\ValidatorExtensions.cs" />
+    <Compile Include="ViewModel\MedicineService.cs" />
     <Compile Include="ViewModel\UserViewModel.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>

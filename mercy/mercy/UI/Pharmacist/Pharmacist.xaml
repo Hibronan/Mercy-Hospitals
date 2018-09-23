@@ -17,7 +17,7 @@
                     <Button Width="30" Height="30" Background="{x:Null}" BorderBrush="{x:Null}" Padding="0" Foreground="Gray" Margin="0 0 10 0" >
                         <materialDesign:PackIcon Kind="Account"/>
                     </Button>
-                    <Button Width="30" Height="30" Background="{x:Null}" BorderBrush="{x:Null}" Padding="0" Foreground="Gray" >
+                    <Button Width="30" Height="30" Background="{x:Null}" BorderBrush="{x:Null}" Padding="0" Foreground="Gray" Click="ButtonMinimize_Click" >
                         <materialDesign:PackIcon Kind="WindowMinimize"/>
                     </Button>
                     <Button x:Name="ButtonClose" Width="30" Height="30" Background="{x:Null}" BorderBrush="{x:Null}" Padding="0" Foreground="Gray" Click="ButtonClose_Click" >
@@ -53,7 +53,7 @@
                         <TextBlock Text="Report" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="73,5,-33.4,3"/>
                     </Grid>
                 </ListViewItem>
-                
+
             </ListView>
             <Image HorizontalAlignment="Left" Height="182" Margin="10,0,0,0" VerticalAlignment="Top" Width="240" Source="..\..\Assets\Logo.png"/>
         </Grid>

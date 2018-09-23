@@ -7,30 +7,49 @@
               xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
              Height="auto" Width="auto">
-    <Grid Height="540" Width="810" Margin="10 10 10 10">
+    <Grid Height="540" Width="810" Margin="10 10 10 10" Loaded="Grid_Loaded">
         <Grid>
             <materialDesign:TransitioningContent x:Name="TriansitioningContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInfromLeft, Duration=0:0:0.8}" Margin="0,0,51,0" Grid.RowSpan="2" >
                 <Grid Background="Silver" Margin="0,0,0.2,0">
-                    <TextBlock Text="Billing" FontSize="24" FontFamily="Cooper Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="333,10,335.2,492" Height="38" Width="91"/>
-                    <TextBox x:Name="Billing_Search" HorizontalAlignment="Left" Height="29" Margin="97,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="215" TextAlignment="Center" CaretBrush="#FF272728" FontSize="14" Background="White" SelectionBrush="Black" TextChanged="Billing_Search_TextChanged"/>
-                    <DataGrid Name="BillingGrid" ItemsSource="{Binding}" Background="White" HorizontalAlignment="Left" Height="328" Margin="412,62,0,0"  VerticalAlignment="Top" Width="313" SelectionChanged="BillingGrid_SelectionChanged">
+                    <TextBox x:Name="Billing_Search" HorizontalAlignment="Left" Height="29" Margin="85,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="257" TextAlignment="Center" CaretBrush="#FF272728" FontSize="14" Background="White" SelectionBrush="Black" TextChanged="Billing_Search_TextChanged"/>
+                    <Grid Margin="34,203,411,22">
+                        <DataGrid x:Name="BillingGrid" ItemsSource="{Binding}" Background="White" HorizontalAlignment="Left" Height="267" Margin="-8,25,0,0"  VerticalAlignment="Top" Width="314" SelectionChanged="BillingGrid_SelectionChanged"/>
+                        <Label Content="Added Products" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Width="103" FontWeight="Bold" Margin="-8,0,0,0"/>
 
-                    </DataGrid>
-                    <Button HorizontalAlignment="Left" Margin="10,11,0,0" VerticalAlignment="Top" Width="50" Height="24" Click="Button_Click" Background="#FF0069C0" BorderBrush="Black">
-                        <materialDesign:PackIcon Kind="Refresh" Width="14" Height="15" VerticalAlignment="Center" HorizontalAlignment="Left" RenderTransformOrigin="-0.3,0.693" />
+                    </Grid>
+                    <Button HorizontalAlignment="Left" Margin="26,11,0,0" Content="New Bill" VerticalAlignment="Top" Width="76" Height="24" Click="Billing_New" Background="#FF0069C0" BorderBrush="Black" FontSize="12">
+                        <!--<materialDesign:PackIcon Kind="Refresh" Width="14" Height="15" VerticalAlignment="Center" HorizontalAlignment="Left" RenderTransformOrigin="-0.3,0.693" />-->
                     </Button>
-                    <Button Content="Add" HorizontalAlignment="Left" Margin="60,471,0,0" VerticalAlignment="Top" Width="75" Background="#FF0069C0" Click="Billing_Add" BorderBrush="#FF080808"/>
-                    <Button Content="Remove" HorizontalAlignment="Left" Margin="178,471,0,0" VerticalAlignment="Top" Width="86" Click="Button_Click_5" Background="#ff0069c0" BorderBrush="#FF181718"/>
-                    <DataGrid Name="BillingSearchGrid" ItemsSource="{Binding}" AutoGenerateColumns="True" Background="White" HorizontalAlignment="Left" Height="194" Margin="16,109,0,0" VerticalAlignment="Top" Width="369" SelectionChanged="BillingSearchGrid_SelectionChanged"/>
-                    <Button Content="Bill" HorizontalAlignment="Left" Margin="573,431,0,0" VerticalAlignment="Top" Width="151" Height="66" Background="#FF2EBD19" BorderBrush="#FF141315" Click="Button_Click_3"/>
-                    <Button Content="Cancel" HorizontalAlignment="Left" Margin="411,431,0,0" VerticalAlignment="Top" Width="151" Height="66" Background="#FFCD3D25" BorderBrush="#FF0D0D0E" Click="Button_Click_4"/>
-                    <TextBox Name="M_Qty" Background="White" HorizontalAlignment="Left" Height="26" Margin="135,360,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="66" FontSize="14" TextAlignment="Center" CaretBrush="#FF272728" SelectionBrush="#FF0A0F12"/>
-                    <Label Content="Quantity*&#xA;" HorizontalAlignment="Left" Margin="44,359,0,0" VerticalAlignment="Top" Height="24" Width="62"/>
-                    <TextBox Name="M_Id" Background="White" HorizontalAlignment="Left" Height="26" Margin="135,317,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" TextAlignment="Center" CaretBrush="#FF101011" SelectionBrush="#FF060708"/>
-                    <Label Content="ID " HorizontalAlignment="Left" Margin="44,317,0,0" VerticalAlignment="Top" Height="24" Width="72"/>
-                    <TextBox Name="M_Discount" Background="White" HorizontalAlignment="Left" Height="26" Margin="135,401,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="66" FontSize="14" TextAlignment="Center" CaretBrush="#FF272728" SelectionBrush="#FF1C1E20"/>
-                    <Label Content="Discount(%)&#xA;" HorizontalAlignment="Left" Margin="44,400,0,0" VerticalAlignment="Top" Height="24" Width="74"/>
-                    <Label Content="Search&#xA;" HorizontalAlignment="Left" Margin="36,60,0,0" VerticalAlignment="Top" Height="24" Width="72"/>
+                    <Button Content="Add" HorizontalAlignment="Left" Margin="404,167,0,0" VerticalAlignment="Top" Width="75" Background="#FF0069C0" Click="Billing_Add" BorderBrush="#FF080808"/>
+                    <Button Content="Remove" HorizontalAlignment="Left" Margin="522,169,0,0" VerticalAlignment="Top" Width="86" Click="Button_Click_5" Background="#ff0069c0" BorderBrush="#FF181718"/>
+                    <DataGrid Name="BillingSearchGrid" ItemsSource="{Binding}" AutoGenerateColumns="True" Background="White" HorizontalAlignment="Left" Height="114" Margin="28,83,0,0" VerticalAlignment="Top" Width="314" SelectionChanged="BillingSearchGrid_SelectionChanged"/>
+                    <Button Content="Bill" HorizontalAlignment="Left" Margin="523,434,0,0" VerticalAlignment="Top" Width="123" Height="48" Background="#FF2EBD19" BorderBrush="#FF141315" Click="Billing_bill" />
+                    <Button Content="Cancel" HorizontalAlignment="Left" Margin="390,434,0,0" VerticalAlignment="Top" Width="123" Height="48" Background="#FFCD3D25" BorderBrush="#FF0D0D0E" Click="Button_Click_4"/>
+                    <TextBox x:Name="M_Qty" Background="White" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" FontSize="14" TextAlignment="Center" CaretBrush="#FF272728" SelectionBrush="#FF0A0F12" Margin="467,86,0,0"/>
+                    <Label Content="Quantity*&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Width="62" Margin="378,85,0,0"/>
+                    <TextBox x:Name="M_Name" Background="White" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" FontSize="14" TextAlignment="Center" CaretBrush="#FF101011" SelectionBrush="#FF060708" Margin="467,47,0,0" IsReadOnly="True" />
+                    <Label Content="Name " HorizontalAlignment="Left" Width="72" Height="24" VerticalAlignment="Bottom" Margin="378,0,0,469"/>
+                    <Label Content="Search&#xA;" HorizontalAlignment="Left" Margin="30,46,0,0" VerticalAlignment="Top" Height="24" Width="72"/>
+                    <Label Content="Price" HorizontalAlignment="Left" Width="72" Margin="378,0,0,394" Height="24" VerticalAlignment="Bottom"/>
+                    <TextBox x:Name="M_price" Text="0.00" Background="White" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" FontSize="14" TextAlignment="Center" CaretBrush="#FF272728" SelectionBrush="#FF0A0F12" Margin="467,124,0,0" IsReadOnly="True"/>
+                    <Grid Margin="378,230,85,142" Background="White">
+                        <TextBox x:Name="M_Discount" Background="White" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" FontSize="14" TextAlignment="Center" CaretBrush="#FF272728" SelectionBrush="#FF1C1E20" Margin="115,35,0,0" TextChanged="M_Discount_TextChanged"/>
+                        <Label Content="Discount(%)&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Width="74" Margin="0,34,0,0"/>
+                        <Label Content="Sub Total" HorizontalAlignment="Left" Width="72" Height="24" VerticalAlignment="Bottom" Margin="0,0,0,144"/>
+                        <Label Content="Balance" HorizontalAlignment="Left" Width="72" Height="24" VerticalAlignment="Bottom" Margin="0,0,0,40"/>
+                        <Label Content="Paid Amount" HorizontalAlignment="Left" Width="88" Height="24" VerticalAlignment="Bottom" Margin="0,0,0,76"/>
+                        <Label Content="Total Amount" HorizontalAlignment="Left" Width="101" Height="28" VerticalAlignment="Bottom" FontSize="14"/>
+                        <TextBox x:Name="M_SubTotal" Background="White" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" FontSize="14" TextAlignment="Center" CaretBrush="#FF272728" SelectionBrush="#FF0A0F12" IsReadOnly="True" Margin="115,0,0,0" Text="0"/>
+                        <TextBox x:Name="M_Balance" Background="White" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" FontSize="14" TextAlignment="Center" CaretBrush="#FF272728" SelectionBrush="#FF0A0F12" IsReadOnly="True" Margin="115,106,0,0"/>
+                        <TextBox x:Name="M_TotalAmount" Background="White" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" FontSize="14" TextAlignment="Center" CaretBrush="#FF272728" SelectionBrush="#FF0A0F12" IsReadOnly="True" Margin="115,142,0,0" Text="0"/>
+                        <TextBox x:Name="M_PaidAmoount" Background="White" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" FontSize="14" TextAlignment="Center" CaretBrush="#FF272728" SelectionBrush="#FF0A0F12" Margin="115,70,0,0" TextChanged="M_PaidAmoount_TextChanged"/>
+
+                    </Grid>
+                    <Label Name="dateLabel" HorizontalAlignment="Left" Margin="613,3,0,0" VerticalAlignment="Top" Width="140" Height="26">
+                        <Label Content="Label"/>
+                    </Label>
+                    <Label Content="Available &#xD;&#xA;Quantity&#xD;&#xA;" HorizontalAlignment="Left" Width="62" Height="45" VerticalAlignment="Bottom" Margin="662,0,0,448"/>
+                    <TextBox x:Name="M_AvQty" Background="White" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" FontSize="14" TextAlignment="Center" CaretBrush="#FF101011" SelectionBrush="#FF060708" Margin="657,89,0,0" IsReadOnly="True" TextChanged="M_Name_TextChanged"/>
 
                 </Grid>
 

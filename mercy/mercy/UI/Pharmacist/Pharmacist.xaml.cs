@@ -33,9 +33,25 @@ namespace mercy
 
         }
 
+        private void ButtonMinimize_Click(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+
+        }
         private void Grid_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            DragMove();
+            try
+            {
+                DragMove();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+
+            }
         }
 
         private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -57,10 +73,10 @@ namespace mercy
                     GridPrincipal.Children.Clear();
                     GridPrincipal.Children.Add(new PharmacyReport());
                     break;
-               /* case 3:
-                    GridPrincipal.Children.Clear();
-                    GridPrincipal.Children.Add(new Pharmacist());
-                    break;*/
+                /* case 3:
+                     GridPrincipal.Children.Clear();
+                     GridPrincipal.Children.Add(new Pharmacist());
+                     break;*/
                 default:
                     break;
             }
@@ -78,6 +94,11 @@ namespace mercy
         }
 
         private void ListViewItem_Selected_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
 
         }

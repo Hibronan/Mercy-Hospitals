@@ -23,6 +23,8 @@ namespace mercy.UI.Pharmacist
     /// </summary>
     public partial class PharmacyProducts : UserControl
     {
+        DataTable dt = new DataTable();
+
         public PharmacyProducts()
         {
             InitializeComponent();
@@ -33,7 +35,7 @@ namespace mercy.UI.Pharmacist
             //DataTable dt = new DataTable();
             //dt.Load(newCmd.ExecuteReader());
             //connection.Close();
-            DataTable dt = new DataTable();
+            //DataTable dt = new DataTable();
 
 
             dt = medicineService.Select();
@@ -43,7 +45,7 @@ namespace mercy.UI.Pharmacist
 
         MedicineService medicineService = new MedicineService();
         Medicine medicine1 = new Medicine();
-       
+
         DateTime date = Convert.ToDateTime(DateTime.Now.ToString());
 
         private void Add_medicine_add(object sender, RoutedEventArgs e)
@@ -137,7 +139,6 @@ namespace mercy.UI.Pharmacist
             //MedicineGrid1.DataContext = dt;
 
 
-            DataTable dt = new DataTable();
 
             dt = medicineService.Select();
             MedicineGrid1.DataContext = dt;

@@ -1,5 +1,7 @@
-﻿using System;
+﻿using mercy.ViewModel;
+using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,9 +22,17 @@ namespace mercy.UI.Pharmacist
     /// </summary>
     public partial class PharmacyReport : UserControl
     {
+        PharmacySaleViewModel pharmacySaleViewModel = new PharmacySaleViewModel();
+        DataTable dt = new DataTable();
+
         public PharmacyReport()
         {
             InitializeComponent();
+
+
+
+            dt = pharmacySaleViewModel.SelectAll();
+            SalesGrid.DataContext = dt;
         }
 
 
@@ -43,6 +53,9 @@ namespace mercy.UI.Pharmacist
 
         private void Sales_LoadFullTb(object sender, RoutedEventArgs e)
         {
+
+            dt = pharmacySaleViewModel.SelectAll();
+            SalesGrid.DataContext = dt;
 
         }
     }

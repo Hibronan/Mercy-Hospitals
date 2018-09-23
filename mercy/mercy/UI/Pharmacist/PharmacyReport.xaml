@@ -11,7 +11,7 @@
         <Grid>
             <materialDesign:TransitioningContent x:Name="TriansitioningContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInfromLeft, Duration=0:0:0.8}" Margin="0,0,51,0" Grid.RowSpan="2" >
                 <Grid Background="Silver">
-                    <DataGrid HorizontalAlignment="Left" Height="417" Margin="32,99,0,0" VerticalAlignment="Top" Width="700"/>
+                    <DataGrid Name="SalesGrid" ItemsSource="{Binding}" HorizontalAlignment="Left" Height="417" Margin="32,99,0,0" VerticalAlignment="Top" Width="700"/>
                     <Button Content="Load Full&#xA;   Table" HorizontalAlignment="Left" Margin="643,48,0,0" VerticalAlignment="Top" Width="86" Click="Sales_LoadFullTb" Background="#FF0069C0" BorderBrush="#FF181718" FontSize="10"/>
                     <TextBox HorizontalAlignment="Left" Height="26" Margin="28,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" TextAlignment="Center" CaretBrush="#FF272728" FontSize="14" Background="White" SelectionBrush="Black"/>
                     <Button Content="Search" HorizontalAlignment="Left" Margin="199,50,0,0" VerticalAlignment="Top" Width="70" Click="Sale_Search" Background="#FF0069C0" BorderBrush="#FF181718" Height="26" FontSize="12"/>

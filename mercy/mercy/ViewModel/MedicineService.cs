@@ -163,5 +163,37 @@ namespace mercy.ViewModel
             return dt;
 
         }
+
+        #region get id from name
+        public Medicine GetMedicineIdFrmName(string name)
+        {
+            Medicine medicine = new Medicine();
+
+            //MySqlCommand newCmd = new MySqlCommand("select m_Id from medicine WHERE m_name LIKE'%" + name + "%' ", connection);
+            string newcmd = "select m_Id from medicine WHERE m_name LIKE'%" + name + "%' ";
+            DataTable dt = new DataTable();
+            try
+            {
+                MySqlDataAdapter adapter = new MySqlDataAdapter(newcmd, connection);
+                connection.Open();
+                // dt.Load(newCmd.ExecuteReader());
+                adapter.Fill(dt);
+                if (dt.Rows.Count > 0)
+                {
+                    medicine.Id = int.Parse(dt.Rows[0]["m_Id"].ToString());
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                connection.Close();
+            }
+
+            return medicine;
+        }
+        #endregion
     }
 }

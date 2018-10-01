@@ -156,6 +156,9 @@ namespace mercy.UI.Admin
             }
 
 
+            gridResult.Children.Clear();
+            gridResult.Children.Add(new ResultUser());
+
         }
         private void NumberValidationAge(object sender, TextCompositionEventArgs e)
         {

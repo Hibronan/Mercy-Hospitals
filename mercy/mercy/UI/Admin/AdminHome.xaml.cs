@@ -134,20 +134,26 @@ namespace mercy.UI.Admin
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
             MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
             commandDatabase.CommandTimeout = 60;
-            MySqlDataReader reader;
+            MySqlDataReader reader=null;
             try
             {
                 databaseConnection.Open();
                 reader = commandDatabase.ExecuteReader();
 
                 // Succesfully updated
-                MessageBox.Show("Successfully user added");
-                databaseConnection.Close();
+                if (reader!=null) {
+                    MessageBox.Show("Successfully user added");
+                    databaseConnection.Close();
+                    User user = userViewModel.LastAddedRow();
+                    //UserId.Text = Convert.ToString(user.GetUserId());
+                    gridResult.Children.Clear();
+                    gridResult.Children.Add(new ResultUser());
+                }
+                
 
                 
                 
-                User user = userViewModel.LastAddedRow();
-                UserId.Text = Convert.ToString(user.GetUserId());
+                
             }
             catch (Exception ex)
             {
@@ -156,8 +162,7 @@ namespace mercy.UI.Admin
             }
 
 
-            gridResult.Children.Clear();
-            gridResult.Children.Add(new ResultUser());
+            
 
         }
         private void NumberValidationAge(object sender, TextCompositionEventArgs e)

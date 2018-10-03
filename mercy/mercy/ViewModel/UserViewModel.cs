@@ -138,15 +138,15 @@ namespace mercy.ViewModel
                 reader.Read();
 
                 userResult.SetUserId(Convert.ToInt32(reader[0].ToString()));
-                //userResult.SetFirstName(reader[1].ToString());
-                //userResult.SetLastName(reader[2].ToString());
-                //userResult.SetAge(Convert.ToInt32(reader[3].ToString()));
-                //userResult.SetGender(reader[4].ToString());
-                //userResult.SetContactNumber(Convert.ToInt32(reader[5].ToString()));
-                //userResult.SetEmail(reader[6].ToString());
-                //userResult.SetUserType(reader[7].ToString());
-                //userResult.SetPassWord(reader[8].ToString());
-                //userResult.SetAddress(reader[9].ToString());
+                  userResult.SetFirstName(reader[1].ToString());
+                  userResult.SetLastName(reader[2].ToString());
+                  userResult.SetAge(Convert.ToInt32(reader[3].ToString()));
+                  userResult.SetGender(reader[4].ToString());
+                  userResult.SetContactNumber(Convert.ToInt32(reader[5].ToString()));
+                  userResult.SetEmail(reader[6].ToString());
+                  userResult.SetUserType(reader[7].ToString());
+                  userResult.SetPassWord(reader[8].ToString());
+                  userResult.SetAddress(reader[9].ToString());
 
                 reader.Close();
 
